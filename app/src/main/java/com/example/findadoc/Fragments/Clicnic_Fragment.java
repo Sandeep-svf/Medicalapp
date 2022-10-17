@@ -345,9 +345,11 @@ public class Clicnic_Fragment extends Fragment {
 
             }
         });
-        getSpeialist_Data();
-            getCity();
+
+        getCity();
         getCountrySearch();
+        getSpeialist_Data();
+
         return v;
     }
 
@@ -768,7 +770,7 @@ public class Clicnic_Fragment extends Fragment {
                             TextView textView = getView().findViewById(R.id.textView);
                             textView.setTextColor(R.color.purple_500);
                             Log.e("jdfjsl","calling this line............");
-                            Toast.makeText(getActivity(), "caling...............", Toast.LENGTH_SHORT).show();
+                           // Toast.makeText(getActivity(), "caling...............", Toast.LENGTH_SHORT).show();
                             dAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                             dAdapter.addAll(country_name_list);
                             dAdapter.add(getResources().getString(R.string.select_country));

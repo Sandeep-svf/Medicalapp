@@ -748,13 +748,23 @@ public class MainActivity extends SlidingFragmentActivity implements View.OnClic
                     startActivity(intent);
                 }else {
 
-                    Log.e("fklskldf","health directory running after ckick");
+                   // Log.e("fklskldf","health directory running after ckick");
                     if(healthFlag.equals("1"))
                     {
                         Toast.makeText(MainActivity.this, "Your access for this module is block by an admin", Toast.LENGTH_SHORT).show();
 
                     }else
                     {
+
+                        // add fragment
+                        Health_Directory_Fragment health_directory_fragment = new Health_Directory_Fragment();
+                        FragmentManager fragmentManager_12 = getSupportFragmentManager();
+                        ((LinearLayout) findViewById(R.id.container)).removeAllViews();
+                        FragmentTransaction fragmentTransaction12 = fragmentManager_12.beginTransaction();
+                        fragmentTransaction12.setCustomAnimations(R.anim.slid_in_right, R.anim.slide_in_left);
+                        fragmentTransaction12.add(R.id.container, health_directory_fragment);
+                        fragmentTransaction12.commit();
+                        getSlidingMenu().toggle();
 
                     }
                 }
