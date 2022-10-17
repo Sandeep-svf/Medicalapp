@@ -75,13 +75,13 @@ public class Home_Fragment extends Fragment {
     private String cityData, countryData, subLocality, stateData;
     ScrollView home_fragment_layout;
     LinearLayout layout_one, layout_two, layout_three;
-    private String healthFlag="1";
-    private String pharmacyFlag="1";
-    private String diagnosisFlag="1";
-    private String MedicineFlag="1";
-    private String mySpaceFlag="1";
-    private String ladiesSpaceFlag="1";
-    private String usefulFlag="1";
+    private String healthFlag="0";
+    private String pharmacyFlag="0";
+    private String diagnosisFlag="0";
+    private String MedicineFlag="0";
+    private String mySpaceFlag="0";
+    private String ladiesSpaceFlag="0";
+    private String usefulFlag="0";
 
 
     @Override

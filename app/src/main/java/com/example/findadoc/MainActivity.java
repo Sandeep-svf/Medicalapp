@@ -104,15 +104,16 @@ public class MainActivity extends SlidingFragmentActivity implements View.OnClic
     private double latDouble, longdouble;
     List<String> moduleNameList = new ArrayList<>();
     private String moduleNameData = "";
-    private String userStatus2145,userType;
+    private String userStatus2145,userType="";
 
-    private String healthFlag="1";
-    private String pharmacyFlag="1";
-    private String diagnosisFlag="1";
-    private String MedicineFlag="1";
-    private String mySpaceFlag="1";
-    private String ladiesSpaceFlag="1";
-    private String usefulFlag="1";
+    private String healthFlag="0";
+    private String pharmacyFlag="0";
+    private String diagnosisFlag="0";
+    private String MedicineFlag="0";
+    private String mySpaceFlag="0";
+    private String ladiesSpaceFlag="0";
+    private String usefulFlag="0";
+
 
     @Override
     public  void onCreate(Bundle savedInstanceState) {
@@ -125,6 +126,7 @@ public class MainActivity extends SlidingFragmentActivity implements View.OnClic
 
 
         String user_name=sharedPreferences.getString("user_name","");
+      //  userType=sharedPreferences.getString("userType","");
         Log.e("check_user_name",user_name+"ok");
         Locale locale2 = new Locale(language);
         Locale.setDefault(locale2);
@@ -638,6 +640,22 @@ public class MainActivity extends SlidingFragmentActivity implements View.OnClic
                 try {
 
                     showMenu();
+
+                    if(userStatus2145.equals("staff"))
+                    {
+
+                    }else
+                    {
+                        if(user_id.equals(""))
+                        {
+
+                        }else
+                        {
+                            module_settings_api();
+                        }
+
+                    }
+
                 if (language.equals("en")) {
 
                     Locale locale2 = new Locale("en");
