@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menubar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@color/medical_logo_bg">
+
+        <ImageView
+            android:id="@+id/blur_image"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:scaleType="fitXY"/>
+
+        <RelativeLayout
+            android:id="@+id/relative_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_centerVertical="true">
+
+            <!--
+                        <ImageView
+                            android:id="@+id/EditDPImage"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="-13dp"
+                            android:layout_toRightOf="@+id/profile_image"
+                            android:visibility="gone"
+                            tools:ignore="contentDescription"
+
+                            />
+            -->
+
+
+            <!-- <TextView
+                 android:id="@+id/tv_login_txt"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/text_profile_name"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="5dp"
+                 android:layout_toRightOf="@+id/profile_image"
+                 android:padding="5dp"
+                 android:textColor="@color/white"
+                 android:textSize="15dp"
+                 android:visibility="gone">
+
+             </TextView>-->
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/medical_app_logo" />
+                <!--
+                                <ImageView
+                                    android:id="@+id/EditDPImage"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginTop="95dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginRight="10dp"
+                                    android:src="@drawable/pencil2x"
+                                    android:tint="@color/dark_gray"
+                                    tools:ignore="contentDescription" />
+                -->
+
+                <TextView
+                    android:id="@+id/text_profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profile_image"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="2dp"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+                <!--
+                                <TextView
+                                    android:id="@+id/user_name"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@+id/text_profile_name"
+                                    android:padding="2dp"
+                                    android:visibility="gone"
+                                    android:layout_marginTop="5dp"
+                                    android:text="@string/abc_gmail_com"
+                                    android:textColor="@color/white"
+                                    android:textSize="15dp" />
+                -->
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/dashboard_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/home_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/home"
+                    android:tint="@color/purple_700"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"/>
+
+                <TextView
+                    android:id="@+id/home_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/home_img"
+                    android:layout_toRightOf="@+id/home_img"
+                    android:text="@string/home"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <View
+                android:id="@+id/das_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <RelativeLayout
+                android:id="@+id/my_profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/home_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/profile"
+                    android:layout_marginStart="10dp"
+                    android:tint="@color/purple_700"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/profile_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/home_img"
+                    android:layout_toRightOf="@+id/home_img"
+                    android:text="@string/my_profile"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <View
+                android:id="@+id/das_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+
+            <RelativeLayout
+                android:id="@+id/profile_layout"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/health_directry_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:tint="@color/purple_700"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/heart_beat"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    tools:ignore="UseAppTint" />
+
+                <TextView
+                    android:id="@+id/health_dir_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/health_directry_img"
+                    android:layout_toRightOf="@+id/health_directry_img"
+                    android:text="@string/health_directory_sec"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <View
+                android:id="@+id/profile_view_dr"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <RelativeLayout
+                android:id="@+id/pharmacy_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/pharmacy_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:tint="@color/purple_700"
+                    android:src="@drawable/pharmacyimg"
+                    android:layout_marginStart="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/health_care"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/pharmacy_img"
+                    android:layout_toRightOf="@+id/pharmacy_img"
+                    android:text="@string/pharmacy"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <View
+                android:id="@+id/phar_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <RelativeLayout
+                android:id="@+id/Diagnosis_layout"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/diagnosis_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:tint="@color/purple_700"
+                    android:src="@drawable/stethoscopeikcon"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/diagnosis_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/diagnosis_img"
+                    android:layout_toRightOf="@+id/diagnosis_img"
+                    android:text="@string/diagnosis"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <View
+                android:id="@+id/diagnosis_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <RelativeLayout
+                android:id="@+id/Medicine_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/madicine_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:tint="@color/purple_700"
+                    android:src="@drawable/pills"
+                    android:layout_marginStart="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/medicine_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/madicine_img"
+                    android:layout_toRightOf="@+id/madicine_img"
+                    android:text="@string/medicine"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <View
+                android:id="@+id/medicine_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <RelativeLayout
+                android:id="@+id/My_Spance_layout"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/my_space_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/user_space"
+                    android:layout_marginStart="10dp"
+                    android:tint="@color/purple_700"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/my_space"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/my_space_img"
+                    android:layout_toRightOf="@+id/my_space_img"
+                    android:text="@string/my_space"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <View
+                android:id="@+id/my_spc_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <RelativeLayout
+                android:id="@+id/ladies_spsace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ladies_spsace_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/woman"
+                    android:tint="@color/purple_700" />
+
+                <TextView
+                    android:id="@+id/ladies_spavce_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/ladies_spsace_img"
+                    android:layout_toRightOf="@+id/ladies_spsace_img"
+                    android:text="@string/ladies_space_2"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <View
+                android:id="@+id/ladies_spsace_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <RelativeLayout
+                android:id="@+id/Complaint_Layout"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/complaint_layout_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="10dp"
+                    android:tint="@color/purple_700"
+                    android:src="@drawable/complaint"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/complaint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/complaint_layout_img"
+                    android:layout_toRightOf="@+id/complaint_layout_img"
+                    android:text="@string/complaint"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <View
+                android:id="@+id/complaint_layout_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <RelativeLayout
+                android:id="@+id/setting_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/setting_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/settings"
+                    android:tint="@color/purple_700"
+                    android:layout_marginStart="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:id="@+id/setting_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/setting_img"
+                    android:layout_toRightOf="@+id/setting_img"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"/>
+            </RelativeLayout>
+            <View
+                android:id="@+id/setting_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <RelativeLayout
+                android:id="@+id/help_layout"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/help_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/information"
+                    android:tint="@color/purple_700"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/legal_notice_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/help_img"
+                    android:layout_toRightOf="@+id/help_img"
+                    android:text="@string/help_and_legal_notice"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <View
+                android:id="@+id/setting_view12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+            <RelativeLayout
+                android:id="@+id/logout_layout123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp">
+                <ImageView
+                    android:id="@+id/image_person"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:tint="@color/purple_700"
+                    android:src="@drawable/profile"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toEndOf="@+id/image_person"
+                    android:layout_toRightOf="@+id/image_person"
+                    android:text="@string/logout"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

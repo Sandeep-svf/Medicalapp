@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Seeting_Fragments"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp">
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/daily_notification"
+                android:layout_toEndOf="@+id/location_icon"
+                android:layout_toRightOf="@+id/location_icon"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"/>
+
+            <Switch
+                android:id="@+id/switch_rec"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:theme="@style/SCBSwitch"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+            android:id="@+id/text_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/languages"
+            android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="18sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"/>
+    <RadioGroup
+        android:id="@+id/language_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/french_lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/french"
+            android:padding="5dp"
+            android:tag="fr-rFR"
+            android:textSize="16sp"
+            android:buttonTint="@color/purple_700"/>
+        <RadioButton
+            android:id="@+id/english_lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:textSize="16sp"
+            android:tag="en"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:buttonTint="@color/purple_700"/>
+        <RadioButton
+            android:id="@+id/arbic_lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arabic"
+            android:tag="ar-rDZ"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:buttonTint="@color/purple_700"/>
+
+
+    </RadioGroup>
+
+
+
+
+</LinearLayout>

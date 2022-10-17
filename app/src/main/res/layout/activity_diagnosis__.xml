@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Diagnosis_Activity_">
+    <RelativeLayout
+        android:id="@+id/realtive"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/purple_700"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/relatice_back_change_password"
+            android:layout_width="50dp"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/undo2x"
+                app:tint="@color/white" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/diagnosis"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gonflement_de_ganglions"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sxdsd"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/assosciated_diseases"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="20dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/associate_recycler"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

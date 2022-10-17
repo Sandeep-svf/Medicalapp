@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.Advance_Search">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/best_price_mode"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"/>
+
+            <Switch
+                android:id="@+id/best_price"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:theme="@style/SCBSwitch"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_field"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/keyword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:hint="@string/drug_name"
+                android:inputType="text"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/hint"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_field"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/search_image"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_search_24" />
+
+            <EditText
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/search_image"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:padding="8dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:paddingRight="20dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="14dp"
+                android:textColorHint="@color/hint"
+                android:windowSoftInputMode="stateHidden"
+                android:hint="@string/categories"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/clear_image"
+                android:layout_width="25dp"
+                android:layout_weight="0"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="10dp"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="@color/light_gray"
+                android:background="@drawable/ic_baseline_clear_24" />
+
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            app:cardElevation="10dp"
+            android:layout_marginRight="20dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/category_recycler"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_field"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp">
+            <EditText
+                android:id="@+id/denomination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="@string/denomination"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@null"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_centerVertical="true"
+                android:textSize="18sp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+-->
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/refundable"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:textSize="18sp"
+    android:gravity="center"
+    android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/all_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/all"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/buton_background"/>
+        <Button
+            android:id="@+id/refund_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/refundable"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/button_diable_"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/search_btn_Advance"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/search"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/buton_background"/>
+
+</LinearLayout>

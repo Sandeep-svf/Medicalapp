@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sam.dev.Activity.StaffUserLoginActivity">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/back_image_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/undo2x"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHeight_percent="0.033"
+        app:layout_constraintHorizontal_bias="0.025"
+
+
+        app:layout_constraintVertical_bias="0.03"
+        app:layout_constraintWidth_percent="0.1">
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintWidth_percent="0.9"
+        android:background="@drawable/background_noti"
+        android:layout_marginLeft="1dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:text="@string/staff_logiin"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+
+            app:layout_constraintVertical_bias="0.05"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintHeight_percent="0.1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:text="@string/welcome_home_sign_in_to_manage_your_device_and_accessories"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+
+            app:layout_constraintVertical_bias="0.15"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintHeight_percent="0.1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/medical_app_logo"
+            app:layout_constraintVertical_bias="0.35"
+            app:layout_constraintWidth_percent="0.3"
+            app:layout_constraintHeight_percent="0.25"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            ></androidx.appcompat.widget.AppCompatImageView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/staff_user_login"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:cardElevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintHeight_percent="0.08"
+
+            app:layout_constraintVertical_bias="0.6"
+
+            app:cardCornerRadius="4dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_weight="0.2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:padding="4dp"
+                    android:tint="@color/com_facebook_blue"
+                    android:src="@drawable/user"
+                    tools:ignore="UseAppTint">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/staff_user_id"
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:inputType="text"
+                android:textSize="14dp"
+                android:layout_height="match_parent"
+                android:hint="@string/staff_username"
+                android:background="@null"
+                android:textStyle="bold">
+            </androidx.appcompat.widget.AppCompatEditText>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/staff_password_login"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:cardElevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintHeight_percent="0.08"
+
+            app:layout_constraintVertical_bias="0.75"
+
+            app:cardCornerRadius="4dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_weight="0.2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:padding="4dp"
+                    android:tint="@color/com_facebook_blue"
+                    android:src="@drawable/padlock"
+                    app:tint="@color/com_facebook_blue"
+                    tools:ignore="UseAppTint">
+
+                </androidx.appcompat.widget.AppCompatImageView>
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/staff_password_id"
+                    android:layout_weight="0.8"
+                    android:layout_width="0dp"
+                    android:inputType="textPassword"
+                    android:layout_height="match_parent"
+                    android:hint="@string/staff_user_Password"
+                    android:textSize="14dp"
+                    android:background="@null"
+                    android:textStyle="bold">
+                </androidx.appcompat.widget.AppCompatEditText>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/staff_user_login_layout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+
+
+            android:text="@string/login"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintVertical_bias="0.9"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintHeight_percent="0.09"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

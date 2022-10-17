@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/medicine_default"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/medicne_img"
+            android:scaleType="fitXY"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/medicine_default"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/medicine_default">
+            <TextView
+                android:id="@+id/med_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/paracetamol"/>
+            <TextView
+                android:id="@+id/cat_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/paracetamol"/>
+
+                <RelativeLayout
+                    android:id="@+id/dosage_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/dosage"
+                        />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:rotation="270"
+                        android:tint="@color/black"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/presentaion_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+
+                    android:text="@string/presentation"
+                    />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:rotation="270"
+                    android:tint="@color/black"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:gravity="end"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/price_50"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

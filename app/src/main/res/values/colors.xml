@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#4278F7</color>
+    <color name="medical_logo_bg">#F9F9F9</color>
+    <color name="purple_800">#BBCFFA</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorAccent">#747DAF</color>
+    <color name="gray">#94000000</color>
+    <color name="light_gray">#41000000</color>
+    <color name="dark_gray">#7C000000</color>
+    <color name="light_gray_two">#E5E5E5</color>
+    <color name="dark_white">#F1EDED</color>
+    <color name="gray_dark">#1BCAC4C4</color>
+    <color name="icon_color">#4278F7</color>
+    <color name="hint">#B7B8BC</color>
+
+</resources>

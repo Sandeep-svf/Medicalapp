@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/layout_list"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_margin="5dp">
+    <ImageView
+        android:id="@+id/share_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_share_24"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"/>
+    <TextView
+        android:id="@+id/advice_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/les_personnesddasdaf_fdfdfgfg_fdg_anemiques_doivent_regulerment_consommer_du_cumin_parce_quil_est_riche_en_fer"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:maxLines="2"/>
+
+
+</androidx.cardview.widget.CardView>

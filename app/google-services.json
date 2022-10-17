@@ -1,0 +1,95 @@
+{
+  "project_info": {
+    "project_number": "1088515161101",
+    "project_id": "findadr-308405",
+    "storage_bucket": "findadr-308405.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088515161101:android:cce737445af690cb172944",
+        "android_client_info": {
+          "package_name": "com.example.findadoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088515161101-2fcv034gbe59p5c5hpivpv1piv6mbbtn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findadoc",
+            "certificate_hash": "2570727e0c16301f04d6e8b5133fb9fc5d7015d3"
+          }
+        },
+        {
+          "client_id": "1088515161101-3og76gkjjkes9te5emngj0gq0mbr72t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findadoc",
+            "certificate_hash": "e56c42cb56fb44a4dd94d973f1b365f325f7ec86"
+          }
+        },
+        {
+          "client_id": "1088515161101-5chm8ljiaep89qclfnrhcbba9v92fpp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findadoc",
+            "certificate_hash": "523e748cdf2b3e6e7b4c49a0aaf96e0ba5576d6d"
+          }
+        },
+        {
+          "client_id": "1088515161101-8m2iq424jco7v47664p2l4mhq7qphoej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findadoc",
+            "certificate_hash": "f271ead79fbdb385ff9c5bb9aa00645bbc1745b5"
+          }
+        },
+        {
+          "client_id": "1088515161101-dm2qhrb3bhrgvji3ue8kqi3g95mm9tmk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findadoc",
+            "certificate_hash": "406d082b9e37f920ac02a11feba852fc22294735"
+          }
+        },
+        {
+          "client_id": "1088515161101-io0htuk1joopkh2pks985mgrtjqvucm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findadoc",
+            "certificate_hash": "56e3f66de5505c1068ca4a4963b6a5a4da2d0476"
+          }
+        },
+        {
+          "client_id": "1088515161101-lja10ee2ob2nm54nhgfi1p12iso68a4f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findadoc",
+            "certificate_hash": "983cb8ae72b40c9c2802a3a40ead24f85bedee88"
+          }
+        },
+        {
+          "client_id": "1088515161101-21eotqumko69v3fkvi5634k28jjthj68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD4BNv7P8Ph9zVgIJZnh1RoWCi21m5Gv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088515161101-21eotqumko69v3fkvi5634k28jjthj68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

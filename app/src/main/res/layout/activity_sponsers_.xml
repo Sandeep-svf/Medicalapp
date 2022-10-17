@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Sponsers_Activity">
+
+    <RelativeLayout
+        android:id="@+id/realtive"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/purple_700"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/relatice_back_change_password"
+            android:layout_width="50dp"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/undo2x"
+                app:tint="@color/white"
+                android:contentDescription="TODO" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/our_partners"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/partners_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

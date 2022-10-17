@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/upload_rel1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/purple_700">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pregnancy Precautions"
+            android:textSize="20dp"
+
+            android:layout_centerInParent="true"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/upload_rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/below_text"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+
+            android:text="@string/you_are_below_recommended_weight"/>
+        <TextView
+            android:id="@+id/weight_loss"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16dp"
+
+            android:text=""/>
+        <TextView
+            android:id="@+id/text_final_weight"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/weight_range"/>
+        <TextView
+            android:id="@+id/ideal_weight"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16dp"
+
+            android:text="@string/ideal_weight"/>
+
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:background="@drawable/buton_background"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Add_New_Prescription_Activity">
+    <RelativeLayout
+        android:id="@+id/realtive"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/purple_700"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/relatice_back_change_password"
+            android:layout_width="50dp"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:tint="@color/white"
+                android:src="@drawable/undo2x"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/prescription"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+       >
+
+        <EditText
+            android:id="@+id/text_prescription"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/dark_gray"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/background_noti"
+           android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+            android:hint="@string/add_new_disease" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:minHeight="100dp"
+            android:textColorHint="@color/dark_gray"
+            android:hint="@string/description"
+            android:background="@drawable/background_noti"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:maxLines="15"
+            android:gravity="start"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/send_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/add_prescription"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buton_background"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.News_Fragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" />
+
+<!--
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="bottom"
+            android:padding="10dip"
+            app:centered="true"
+            app:strokeWidth="0dp"
+            app:fillColor="@color/purple_800"
+            app:pageColor="@color/purple_700"
+            app:snap="false" />
+-->
+
+    </RelativeLayout>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/news_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+
+
+
+</LinearLayout>

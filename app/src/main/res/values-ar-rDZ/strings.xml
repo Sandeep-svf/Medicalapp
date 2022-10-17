@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Medicalapp</string>
+    <string name="facebook_app_id">604710573957992</string>
+    <string name="fb_login_protocol_scheme">fb604710573957992</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="sxdsd">hello hd dhj hjkfh dhk kl fkh fh kf hk fhkhdkh khff kh f kf h f kdkh f hf ffh hf d d hf d fdk dffhfh fhdfdff;hfhf fdh hd fhddfhhfdfhfhfdfkjf fjh jfkshf</string>
+    <string name="gallary">معرض</string>
+    <string name="camera">آلة تصوير</string>
+    <string name="prescription">"وصفة طبية  "</string>
+    <string name="add_new_medicine_to_prescription">أضف دواءً جديدًا إلى الوصفة الطبية</string>
+    <string name="total_amount">المبلغ الإجمالي:</string>
+    <string name="termine">ترمين</string>
+    <string name="alternatives">البدائل</string>
+    <string name="diagnosis">"تشخيص "</string>
+    <string name="gonflement_de_ganglions">المبلغ الإجمالي:</string>
+    <string name="assosciated_diseases">الأمراض المستعصية</string>
+    <string name="doctor_profile">الملف الشخصي للطبيب</string>
+    <string name="dr_xyz_singh">الدكتور Xyz سينغ</string>
+    <string name="cheast_specialist">اختصاصي في الصدر</string>
+    <string name="_4_year_of_experience">4 سنوات خبرة
+</string>
+    <string name="based_on_your_experience_do_you_recommend_visiting_the_clinic">بناءً على تجربتك ، هل تنصح بزيارة العيادة؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+
+    <string name="h_123_sector_63_noida">H / 123 قطاع 63 نويدا</string>
+    <string name="abc_gmail_com">abc@gmail.com</string>
+
+    <string name="_9078675645">9078675645</string>
+    <string name="worktime">وقت العمل</string>
+    <string name="monday_to_saturday">الاثنين الى السبت</string>
+    <string name="_10_00_a_m_to_4_00_pm">10:00 صباحا حتى 4:00 مساءا</string>
+    <string name="hospitals">المستشفيات</string>
+    <string name="indications_and_dosage">المؤشرات و الجرعة</string>
+    <string name="actifedduo_lp_rhinitr_allergiq">Actifedduo Lp Rhinitr Allergiq</string>
+    <string name="presentation">عرض</string>
+    <string name="precautions">احتياطات</string>
+    <string name="pregnancy">حمل</string>
+    <string name="adverse_effects">الآثار السلبية</string>
+    <string name="forget_password">نسيت كلمة المرور؟</string>
+    <string name="welcome_home_sign_in_to_manage_your_device_and_accessories">مرحبا بك في البيت! قم بتسجيل الدخول لإدارة جهازك وملحقاته
+</string>
+    <string name="login">تسجيل الدخول
+</string>
+    <string name="enter_your_email">أدخل بريدك الإلكتروني</string>
+    <string name="enter_your_password">ادخل رقمك السري
+</string>
+    <string name="not_a_member">ليس عضوا؟</string>
+    <string name="create_acount">إنشاء حساب</string>
+    <string name="other_login_methods">طرق تسجيل الدخول الأخرى</string>
+    <string name="login_with_facebook">تسجيل الدخول باستخدام الفيسبوك</string>
+    <string name="login_with_google">تسجيل الدخول عبر جوجل
+</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="your_position">موقعك</string>
+    <string name="sign_up_sign_in">سجل حساب / جديد سجل دخول</string>
+    <string name="profile">حساب تعريفي</string>
+    <string name="personal_information">معلومات شخصية</string>
+    <string name="invite_friends">ادعو أصدقاء</string>
+    <string name="terms_and_conditions">الأحكام والشروط</string>
+    <string name="privacy_policies">سياسات الخصوصية</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="our_partners">شركاؤنا</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="angine_inflamation_des_amygdales_amygdalite">الذبحة. التهاب اللوزة ، اللوزة
+</string>
+    <string name="best_price_mode">أفضل وضع سعر
+</string>
+
+    <string name="categories">فئات</string>
+    <string name="denomination">فئة</string>
+    <string name="all">الجميع</string>
+    <string name="refundable">مستردة</string>
+
+    <string name="select_date">حدد تاريخ
+</string>
+    <string name="select_time">حدد الوقت
+</string>
+    <string name="around_me">حولي</string>
+    <string name="recommended">موصى به</string>
+    <string name="keyword">الكلمة الرئيسية
+</string>
+    <string name="mobile_phone_number">رقم الهاتف الجوال
+</string>
+    <string name="full_name">الاسم الكامل
+</string>
+    <string name="email">بريد الالكتروني
+</string>
+    <string name="description">وصف</string>
+    <string name="update_photo">تحديث الصورة
+</string>
+    <string name="i_have_read_and_i_accept_terms_of_use">لقد قرأت شروط الاستخدام وأوافق عليها
+</string>
+    <string name="send">إرسال</string>
+
+    <string name="message">رسالة</string>
+    <string name="symptoms">أعراض</string>
+    <string name="average_period_length">متوسط ​​طول الفترة
+</string>
+    <string name="compute">إحصاء - عد
+</string>
+    <string name="health_directory">دليل الصحة
+</string>
+    <string name="healthcare_support">دعم HealthCare</string>
+    <string name="medicine">أدوية</string>
+    <string name="my_space">فضائي</string>
+    <string name="ladies_space">مساحة السيدات
+</string>
+    <string name="distributer_space">مساحة الموزع
+</string>
+    <string name="useful_numbers">UseFul أرقام
+</string>
+    <string name="brand">ماركة</string>
+    <string name="search">بحث</string>
+    <string name="name">اسم</string>
+    <string name="address">تبوك
+</string>
+    <string name="activity">نشاط</string>
+    <string name="phone">هاتف</string>
+    <string name="mobile_no">رقم المحمول</string>
+    <string name="map_position">موقع الخريطة
+</string>
+
+
+
+    <string name="height_in_meters">الارتفاع (بالسنتيمتر)</string>
+    <string name="create_a_new_presciption">قم بإنشاء وصفة طبية جديدة</string>
+    <string name="daily_notification">الإخطار اليومي</string>
+    <string name="french">فرنسي</string>
+    <string name="english">الإنجليزية</string>
+    <string name="arabic">عربي</string>
+    <string name="laboratorie_dentaire_chaouai_aloaoaii">مختبرات دنتير شواي الألواعي
+</string>
+    <string name="_98_building_no_noida">98 ، بناية لا ، نويدا
+</string>
+    <string name="_989089009">989089009</string>
+    <string name="les_personnesddasdaf_fdfdfgfg_fdg_anemiques_doivent_regulerment_consommer_du_cumin_parce_quil_est_riche_en_fer">Les Personnesddasdaf fdfdfgfg fdg anemiques doivent regulerment consommer du cumin parce quil est riche en fer</string>
+    <string name="my_profile">ملفي</string>
+    <string name="complaint">شكوى</string>
+    <string name="settings">إعدادات</string>
+    <string name="help_and_legal_notice">المساعدة والإشعار القانوني
+</string>
+
+    <string name="heading_type_text">نص نوع العنوان</string>
+    <string name="_20_sepetember_2020">20 سبتمبر 2020</string>
+    <string name="title">لقب</string>
+    <string name="ritik_rathaur">ريتيك راثور</string>
+
+    <string name="hello_pleadd_dsfdf">Hello pleadd dsfdf</string>
+
+    <string name="my_name_is_abc">اسمي هو abc</string>
+    <string name="_12_feb_2021">12 فبراير 2021
+</string>
+    <string name="date">تاريخ</string>
+    <string name="ord_01_03_2022">ORD_01-03-2022</string>
+
+    <string name="deficience_en_vitamin_d_un_feacture">Deficience en Vitamin D: un feacture.
+</string>
+    <string name="fire_fighters">رجال الاطفاء
+</string>
+    <string name="weight_before_pregnancy">الوزن قبل الحمل
+</string>
+    <string name="languages">اللغات</string>
+    <string name="advice">النصيحة</string>
+    <string name="clicnic">عيادات</string>
+    <string name="doctor">الأطباء</string>
+    <string name="labora">مختبرات</string>
+    <string name="radiology">الأشعة</string>
+    <string name="ne">أخبار</string>
+    <string name="birth_contro">تنظيم النسل</string>
+    <string name="fertiliy">خصوبة</string>
+    <string name="indicis_dosage">البيان والجرعة</string>
+    <string name="advance_serch">البحث المتقدم</string>
+    <string name="prescriptio">روشتة</string>
+    <string name="new_en">دخول جديد</string>
+    <string name="my_fav">مفضلتي</string>
+    <string name="hello">مرحبًا ، هذه أول أخبار</string>
+    <string name="select_city">حدد البلدية</string>
+    <string name="selct_spec">حدد التخصص</string>
+    <string name="alert">انذار</string>
+    <string name="findadoct">FindADoct</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="surname">لقب</string>
+    <string name="ddf">رقم التليفون</string>
+    <string name="update_profile">تحديث الملف</string>
+    <string name="open_time">وقت متاح</string>
+    <string name="close">وقت الاغلاق</string>
+    <string name="selct_categories">اختر الفئة</string>
+    <string name="selct_doctor_speclity">حدد تخصص الطبيب</string>
+    <string name="medicines">الأدوية</string>
+    <string name="price_50">السعر: 50 دولار</string>
+    <string name="paracetamol">باراسيتامول</string>
+    <string name="please_select">الرجاء تحديد الفئة</string>
+    <string name="please_select_br">يرجى تحديد الماركة</string>
+    <string name="your_favourite_list_is_empty">قائمة مفضلاتك فارغة</string>
+    <string name="nothing">ولا شيء</string>
+    <string name="name_enter">من فضلك أدخل إسمك</string>
+    <string name="desc">الرجاء إدخال الوصف</string>
+    <string name="mo">أدخل رقم الهاتف المتحرك</string>
+    <string name="ema">أدخل بريدك الإلكتروني</string>
+    <string name="se">اختر الصور</string>
+    <string name="pleas_Read">يرجى قراءة الشروط والسياسات</string>
+    <string name="p_lengh">الرجاء إدخال متوسط ​​طول الفترة</string>
+    <string name="last_period_date">الرجاء اختيار تاريخ الفترة الأخيرة</string>
+    <string name="internet_connection">لا يوجد اتصال بالإنترنت</string>
+    <string name="take_med">حان الوقت لتناول دوائك.</string>
+    <string name="med">خذ دواءك</string>
+    <string name="end_date">تاريخ الانتهاء</string>
+    <string name="start">تاريخ البدء</string>
+    <string name="schosse_medicne">الرجاء اختيار تاريخ بدء تناول الدواء</string>
+    <string name="end_date_medicie">يرجى اختيار تاريخ انتهاء العلاج</string>
+    <string name="time_taken">الرجاء اختيار الدواء الذي استغرقه الوقت</string>
+    <string name="log">الرجاء تسجيل الدخول!</string>
+    <string name="load">جار التحميل...</string>
+    <string name="add_med_successfully">تمت إضافة جدول الأدوية الخاص بك بنجاح</string>
+    <string name="height">تمت إضافة جدول الأدوية الخاص بك بنجاح</string>
+    <string name="bef_weight">الرجاء إدخال الوزن بالكيلو جرام</string>
+    <string name="week">الرجاء إدخال رقم الأسبوع</string>
+    <string name="cur_weight">الرجاء إدخال الوزن الحالي بالكيلوجرام</string>
+    <string name="no_result">لا توجد نتيجة متاحة لهذا البحث</string>
+    <string name="you_are_below_recommended_weight">أنت أقل من الوزن الموصى به</string>
+    <string name="increased">زاد وزنك بمقدار</string>
+    <string name="descreased">لقد انخفض وزنك بمقدار</string>
+    <string name="kg">كلغ</string>
+    <string name="ideal_weight">مع النمو المثالي ، يجب أن يكون وزنك 82.5 كجم</string>
+    <string name="weight_range">يجب أن تكون قد تناولت ما بين 20.0 كجم إلى 22.0 كجم</string>
+    <string name="current_weight">الوزن الحالي</string>
+    <string name="exper">خبرة</string>
+    <string name="open_days">أيام مفتوحة</string>
+    <string name="your_ecp">الرجاء إدخال تجربتك</string>
+    <string name="ex">سنة الخبرة</string>
+    <string name="comments">تعليقات</string>
+    <string name="comnt_type">الرجاء كتابة تعليقك</string>
+    <string name="pharmacy_duuty">الصيدليات المناوبة</string>
+    <string name="drugs_styore">الصيدليات</string>
+    <string name="pharm">صيدلية</string>
+    <string name="opticians">اخصائيو البصريات</string>
+    <string name="ver">أطباء بيطريون</string>
+    <string name="enter_name">الرجاء إدخال الاسم</string>
+    <string name="enter_email">الرجاء إدخال البريد الإلكتروني</string>
+    <string name="mobile_no_enter">أدخل رقم الجوال</string>
+    <string name="enter_msg">أدخل رسالتك</string>
+    <string name="checked_Data">يرجى قراءة الشروط والأحكام وسياسات الخصوصية</string>
+    <string name="enter_Addresd">الرجاء إدخال العنوان</string>
+    <string name="enter_keywords">الرجاء إدخال الكلمة الرئيسية</string>
+    <string name="enter_phone">أدخل رقم هاتفك</string>
+    <string name="enter_mobile">أدخل رقم هاتفك المحمول.</string>
+    <string name="chosse_open_time">الرجاء اختيار وقت مفتوح</string>
+    <string name="choose_close_time">الرجاء اختيار وقت الإغلاق</string>
+    <string name="choose_sepciality">الرجاء اختيار المواصفات</string>
+    <string name="terms">يرجى قراءة الشروط والأحكام</string>
+    <string name="select_image">الرجاء اختيار صورة الملف الشخصي</string>
+    <string name="number">رقم الهاتف</string>
+    <string name="drug_name">اسم الدواء</string>
+    <string name="email_error">الرجاء إدخال بريد إلكتروني صالح مع @ و.</string>
+    <string name="about">معلومات عنا</string>
+    <string name="parapharmacy">شبه صيدلة</string>
+    <string name="date_of_stopping_pills">تاريخ توقف حبوب منع الحمل</string>
+    <string name="date_of_starting_pills">تاريخ بدء حبوب منع الحمل</string>
+    <string name="user_ful_number">أرقام مفيدة</string>
+    <string name="acnes">حب الشباب</string>
+    <string name="abc">حدد المرض</string>
+    <string name="select_disease">حدد المرض</string>
+    <string name="add_prescription">إضافة وصفة طبية</string>
+    <string name="text_prescription_da">الرجاء إدخال اسم المرض</string>
+    <string name="enter_diseasse_prescription">أدخل وصفة طبية للمرض</string>
+    <string name="add_new_disease">إضافة مرض جديد إلى الوصفة الطبية</string>
+    <string name="your_notification_list_is_empty">قائمة الإخطارات فارغة</string>
+    <string name="dete_single_noti">هل أنت متأكد أنك تريد حذف هذا الإخطار؟</string>
+    <string name="clear">امسح الكل</string>
+    <string name="pharmacy">صيدلية</string>
+    <string name="specilist">متخصص</string>
+    <string name="health_directory_sec">دليل الصحة</string>
+    <string name="healthcare_support_2">دعم HealthCare</string>
+    <string name="ladies_space_2">مساحة السيدات</string>
+    <string name="yourovulationsaved">تم حفظ التبويض التالي بنجاح</string>
+    <string name="today_yours_ovulation">اليوم هو يوم التبويض</string>
+    <string name="takecare">أرجوك اعتن بنفسك</string>
+    <string name="choose_Image">اختر صورة</string>
+    <string name="medicine_not_">لم يتم العثور على دواء لهذا البحث</string>
+    <string name="enter_drugname">الرجاء إدخال اسم الطب</string>
+    <string name="dosage">الجرعة</string>
+    <string name="select_diseases">حدد المرض</string>
+    <string name="plese_enter_period">الرجاء إدخال يوم الفترة الصحيح</string>
+    <string name="taken_between">يجب أن تأخذ بين</string>
+    <string name="idealk">مع النمو المثالي ، يجب أن يكون وزنك</string>
+    <string name="you_are_above_recommended_weight">كنت فوق الوزن الموصى به</string>
+    <string name="staff_logiin">دخول الموظفين</string>
+    <string name="staff_username">معرف مستخدم الموظفين</string>
+    <string name="staff_user_Password">كلمة مرور مستخدم الموظفين</string>
+    <string name="staff_user">تسجيل دخول المستخدم للموظفين</string>
+    <string name="select_country">حدد الدولة</string>
+    <string name="select_state">حدد مقاطعة</string>
+    <string name="cancel">يلغي</string>
+    <string name="postalCode">رمز بريدي</string>
+    <string name="city">مدينة</string>
+    <string name="sun">الشمس</string>
+    <string name="mon">الإثنين</string>
+    <string name="tue">الثلاثاء</string>
+    <string name="wed">تزوج</string>
+    <string name="thu">خميس</string>
+    <string name="fri">الجمعة</string>
+    <string name="sat">جلس</string>
+    <string name="longitude">خط الطول</string>
+    <string name="latitude">خط العرض</string>
+    <string name="country">دولة</string>
+    <string name="addressLine">خط عنوان</string>
+    <string name="select_item">حدد البند</string>
+    <string name="week2">الرجاء إدخال عدد الأسابيع.</string>
+</resources>

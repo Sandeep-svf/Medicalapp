@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.Opticiens_Favourite_Fragmenet">
+
+    <LinearLayout
+        android:id="@+id/layout_rad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/no_Result_icon"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:src="@drawable/no_record"
+            android:visibility="visible"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:text="@string/nothing"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/your_favourite_list_is_empty"
+            android:textSize="16sp"
+            android:fontFamily="cursive"
+
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/opticiense_fav_recycler"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

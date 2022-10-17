@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sam.dev.Activity.NewsDetailsActivity">
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/news_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="fitXY"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintVertical_bias="0"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+    </androidx.appcompat.widget.AppCompatImageView>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bcak_image"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_constraintVertical_bias="0.01"
+        app:layout_constraintHorizontal_bias="0"
+
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:tint="@color/black"
+
+        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintHeight_percent="0.03"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+
+    </androidx.appcompat.widget.AppCompatImageView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/news_headline"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:text="@string/heading"
+        android:textSize="@dimen/news_heading"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        app:layout_constraintWidth_percent="0.95"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintVertical_bias="0.35"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/news_created_time"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+
+        android:text="@string/created_at"
+        android:textSize="@dimen/news_heading"
+        android:textColor="@color/black"
+        android:gravity="center"
+
+        app:layout_constraintHeight_percent="0.05"
+        app:layout_constraintVertical_bias="0.42"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintWidth_percent="0.9"
+        app:layout_constraintHeight_percent="0.55"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/news_contant"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:justificationMode="inter_word"
+            android:text="@string/news_contant"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="16sp">
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
