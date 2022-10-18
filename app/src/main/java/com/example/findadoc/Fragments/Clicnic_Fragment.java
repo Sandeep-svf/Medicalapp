@@ -650,9 +650,9 @@ public class Clicnic_Fragment extends Fragment {
 
                             spinnerAdapter dAdapter = new spinnerAdapter(getActivity(), R.layout.custom_spinner_two, state_name_list);
                             dAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                            TextView textView = getView().findViewById(R.id.textView);
-                            textView.setTextColor(R.color.purple_500);
-                            Log.e("check","calling.........");
+                           // TextView textView = getView().findViewById(R.id.textView);
+                           // textView.setTextColor(R.color.purple_500);
+                           // Log.e("check","calling.........");
                             dAdapter.addAll(state_name_list);
                             dAdapter.add(getResources().getString(R.string.select_state));
                             spinner_state_clinic.setAdapter(dAdapter);
@@ -767,9 +767,9 @@ public class Clicnic_Fragment extends Fragment {
                             }
 
                             spinnerAdapter dAdapter = new spinnerAdapter(getActivity(), R.layout.custom_spinner_two, country_name_list);
-                            TextView textView = getView().findViewById(R.id.textView);
-                            textView.setTextColor(R.color.purple_500);
-                            Log.e("jdfjsl","calling this line............");
+                           // TextView textView = getView().findViewById(R.id.textView);
+                           // textView.setTextColor(R.color.purple_500);
+                           // Log.e("jdfjsl","calling this line............");
                            // Toast.makeText(getActivity(), "caling...............", Toast.LENGTH_SHORT).show();
                             dAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                             dAdapter.addAll(country_name_list);
