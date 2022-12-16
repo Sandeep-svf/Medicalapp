@@ -9,7 +9,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class Api_client {
    // public static final String BASE_URL = "http://itdevelopmentservices.com/finddoctor/api/";
     public static final String BASE_URL = "http://itdevelopmentservices.com/finddoctortest/api/";
-    public static final String BASE_IMAGE="http://itdevelopmentservices.com/finddoctor/upload/images/";
+    //public static final String BASE_URL = "http://itdevelopmentservices.com/finddoctortest/api/";
+    public static final String BASE_IMAGE="http://itdevelopmentservices.com/finddoctortest/upload/images/";
     public static final String PAYMENT = "https://testom.orange.bf:9008/";
 //    private ServiceHelper() {
 //        httpClient = new OkHttpClient.Builder();

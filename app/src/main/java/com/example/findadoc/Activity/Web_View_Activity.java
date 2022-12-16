@@ -51,24 +51,24 @@ public class Web_View_Activity extends AppCompatActivity {
         if(key.equals("1"))
         {
            // url="http://itdevelopmentservices.com/finddoctor/front/Terms&Condition?lang="+language+"";
-            url="https://itdevelopmentservices.com/finddoctor/front/terms_conditions?key=MQ==&lang="+language+"";
+            url="https://itdevelopmentservices.com/finddoctortest/front/terms_conditions?key=MQ==&lang="+language+"";
             name.setText(getResources().getString(R.string.terms_and_conditions));
         }
         else if (key.equals("2"))
         {
            // url="http://itdevelopmentservices.com/finddoctor/front/Privacy?lang="+language+"";
-            url="https://itdevelopmentservices.com/finddoctor/front/privacy_policy_web?key=MQ==&lang="+language+"";
+            url="https://itdevelopmentservices.com/finddoctortest/front/privacy_policy_web?key=MQ==&lang="+language+"";
             name.setText(getResources().getString(R.string.privacy_policies));
         }
         else if (key.equals("4"))
         {
-            url="http://itdevelopmentservices.com/finddoctor/front/legalNotice?lang="+language+"";
+            url="http://itdevelopmentservices.com/finddoctortest/front/legalNotice?lang="+language+"";
             name.setText(getResources().getString(R.string.help_and_legal_notice));
         }
 
         else
         {
-            url="http://itdevelopmentservices.com/finddoctor/front/aboutus?lang="+language+"";
+            url="http://itdevelopmentservices.com/finddoctortest/front/aboutus?lang="+language+"";
             name.setText(getResources().getString(R.string.about));
         }
 
